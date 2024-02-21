@@ -10,7 +10,7 @@ $$ T(n) =
     \end{cases}
 \\
 $$
-\\
+
 $$
 \begin{gather*}
 & \mathrm{T}(n) = \mathrm{T}(\frac{n}{13}) + 5 \\
@@ -38,9 +38,8 @@ $$ T(n) =
         13 T\left(\frac{n}{13}\right) + 5 & n > 1
     \end{cases}
 $$
-\\
-$$
 
+$$
 \begin{gather*}
 & \mathrm{T}(n) = 13\mathrm{T}(\frac{n}{13}) + 5 \\
 \implies & \mathrm{T}(n) = 13(13\mathrm{T}(\frac{n}{\frac{13}{13}}) + \frac{5}{13}) + 5 \\
@@ -58,6 +57,8 @@ $$
 \end{gather*}
 $$
 
+
+
 3. 
 $$ T(n) =
     \begin{cases}
@@ -65,7 +66,9 @@ $$ T(n) =
         13 T\left(\frac{n}{13}\right) + 2n & n > 1
     \end{cases}
 $$
-\\
+
+
+
 $$
 \begin{gather*}
 & \mathrm{T}(n) = 13\mathrm{T}(\frac{n}{13}) + 2n \\
