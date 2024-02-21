@@ -8,7 +8,6 @@ $$ T(n) =
         1 & n \leq 1\\
         T\left(\frac{n}{13}\right) + 5 & n > 1
     \end{cases}
-\\
 $$
 
 $$
@@ -38,6 +37,8 @@ $$ T(n) =
         13 T\left(\frac{n}{13}\right) + 5 & n > 1
     \end{cases}
 $$
+
+
 
 $$
 \begin{gather*}
