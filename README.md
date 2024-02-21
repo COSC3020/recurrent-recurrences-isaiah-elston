@@ -8,8 +8,10 @@ $$ T(n) =
         1 & n \leq 1\\
         T\left(\frac{n}{13}\right) + 5 & n > 1
     \end{cases}
-\\[0.5in]
-
+\\
+$$
+\\
+$$
 \begin{gather*}
 & \mathrm{T}(n) = \mathrm{T}(\frac{n}{13}) + 5 \\
 \implies & \mathrm{T}(n) = \mathrm{T}(\mathrm{T}(\frac{n}{169}) + 5) + 5 \\
@@ -25,7 +27,6 @@ $$ T(n) =
 \therefore & \mathrm{T}(n) \in \mathrm{\Theta}(\log(n)) \\
 && \blacksquare
 \end{gather*}
-
 $$
 
 
@@ -36,7 +37,9 @@ $$ T(n) =
         1 & n \leq 1\\
         13 T\left(\frac{n}{13}\right) + 5 & n > 1
     \end{cases}
-\\[0.5in]
+$$
+\\
+$$
 
 \begin{gather*}
 & \mathrm{T}(n) = 13\mathrm{T}(\frac{n}{13}) + 5 \\
@@ -61,8 +64,9 @@ $$ T(n) =
         1 & n \leq 1\\
         13 T\left(\frac{n}{13}\right) + 2n & n > 1
     \end{cases}
-\\[0.5in]
-
+$$
+\\
+$$
 \begin{gather*}
 & \mathrm{T}(n) = 13\mathrm{T}(\frac{n}{13}) + 2n \\
 \implies & \mathrm{T}(n) = 13(13\mathrm{T}(\frac{n}{\frac{13}{13}}) + \frac{2n}{13}) + 2n \\
